@@ -18,9 +18,9 @@ A command-line banking simulator supporting balance checks, deposits, withdrawal
 - Error checking with Go's `error` return pattern
 
 **Run it:**
-\`\`\`bash
+```bash
 go run Go-projects/atm.go
-\`\`\`
+```
 
 ---
 
