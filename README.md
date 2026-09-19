@@ -24,6 +24,21 @@ go run Go-projects/atm.go
 
 ---
 
+### 2. ATM Transaction Simulator
+A command-line ATM simulator supporting balance checks, deposits, and withdrawals on a single account session.
+
+**Concepts covered:**
+- Struct methods with value receivers (`CheckBalance`) vs pointer receivers (`Deposit`, `Withdraw`)
+- Constructor-style functions returning a pointer (`newTransaction`)
+- Multiple return values (returning a status message alongside the balance)
+- Variable scope and why declaring a variable inside an `if` block hides it from the rest of the function
+- Organizing a multi-file package (`atm.go` + `atm_struct.go`) inside its own subfolder
+
+**Run it:**
+```bash
+go run ./atm
+```
+
 *More projects added as I go — each one below will follow the same format: what it does, what I learned building it, and how to run it.*
 
 ## Why Go

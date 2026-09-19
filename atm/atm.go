@@ -8,7 +8,7 @@ var deposit int
 var withdrawal int
 
 
-func main() {
+func run_main() {
 	Loop:
 	for {
 		
